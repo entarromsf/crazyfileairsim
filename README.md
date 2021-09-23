@@ -8,11 +8,11 @@ Our goal is to develop AirSim as a platform for AI research to experiment with d
 
 Drones in AirSim
 
-[![AirSim Drone Demo Video](docs/images/demo_video.png)](https://youtu.be/-WfTr1-OBGQ)
+[![AirSim Drone Demo Video](AirSimori/docs/images/demo_video.png)](https://youtu.be/-WfTr1-OBGQ)
 
 Cars in AirSim
 
-[![AirSim Car Demo Video](docs/images/car_demo_video.png)](https://youtu.be/gnz1X3UNM5Y)
+[![AirSim Car Demo Video](AirSimori/docs/images/car_demo_video.png)](https://youtu.be/gnz1X3UNM5Y)
 
 
 ## How to Get It
@@ -31,7 +31,7 @@ Cars in AirSim
 [![Build Status](https://github.com/microsoft/AirSim/actions/workflows/test_macos.yml/badge.svg)](https://github.com/microsoft/AirSim/actions/workflows/test_macos.yml)
 * [Build it](https://microsoft.github.io/AirSim/build_linux)
 
-For more details, see the [use precompiled binaries](docs/use_precompiled.md) document. 
+For more details, see the [use precompiled binaries](AirSimori/docs/use_precompiled.md) document. 
 
 ## How to Use It
 
@@ -45,9 +45,9 @@ If you have remote control (RC) as shown below, you can manually control the dro
 
 [More details](https://microsoft.github.io/AirSim/remote_control)
 
-![record screenshot](docs/images/AirSimDroneManual.gif)
+![record screenshot](AirSimori/docs/images/AirSimDroneManual.gif)
 
-![record screenshot](docs/images/AirSimCarManual.gif)
+![record screenshot](AirSimori/docs/images/AirSimCarManual.gif)
 
 
 ### Programmatic control
@@ -64,7 +64,7 @@ Note that you can use [SimMode setting](https://microsoft.github.io/AirSim/setti
 
 There are two ways you can generate training data from AirSim for deep learning. The easiest way is to simply press the record button in the lower right corner. This will start writing pose and images for each frame. The data logging code is pretty simple and you can modify it to your heart's content.
 
-![record screenshot](docs/images/record_data.png)
+![record screenshot](AirSimori/docs/images/record_data.png)
 
 A better way to generate training data exactly the way you want is by accessing the APIs. This allows you to be in full control of how, what, where and when you want to log data.
 
@@ -78,7 +78,7 @@ Yet another way to use AirSim is the so-called "Computer Vision" mode. In this m
 
 Press F10 to see various options available for weather effects. You can also control the weather using [APIs](https://microsoft.github.io/AirSim/apis#weather-apis). Press F1 to see other options available.
 
-![record screenshot](docs/images/weather_menu.png)
+![record screenshot](AirSimori/docs/images/weather_menu.png)
 
 ## Tutorials
 
@@ -149,5 +149,4 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 ## License
 
 This project is released under the MIT License. Please review the [License file](LICENSE) for more details.
-
 
